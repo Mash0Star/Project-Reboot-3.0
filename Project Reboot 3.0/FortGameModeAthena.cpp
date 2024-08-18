@@ -1558,7 +1558,7 @@ void AFortGameModeAthena::Athena_HandleStartingNewPlayerHook(AFortGameModeAthena
 	{
 		PlayerAbilitySet->GiveToAbilitySystem(AbilitySystemComponent);
 
-		if (Fortnite_Version >= 21)
+		if (Fortnite_Version >= 20)
 		{
 #if 0
 			static auto BGAClass = FindObject<UClass>(L"/Script/Engine.BlueprintGeneratedClass");

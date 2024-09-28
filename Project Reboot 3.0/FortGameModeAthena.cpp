@@ -1566,7 +1566,7 @@ void AFortGameModeAthena::Athena_HandleStartingNewPlayerHook(AFortGameModeAthena
 			AbilitySystemComponent->GiveAbilityEasy(TacticalSprintClass);
 #else
 			auto TacticalSprintAbilitySet = LoadObject<UFortAbilitySet>("/TacticalSprint/Gameplay/AS_TacticalSprint.AS_TacticalSprint");
-			// TacticalSprintAbilitySet->GiveToAbilitySystem(AbilitySystemComponent);
+			TacticalSprintAbilitySet->GiveToAbilitySystem(AbilitySystemComponent);
 #endif
 		}
 	}
